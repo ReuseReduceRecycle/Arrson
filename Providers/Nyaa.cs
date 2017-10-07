@@ -15,6 +15,7 @@ namespace Providers
             QueryDictionary = HttpUtility.ParseQueryString(Uri.Query);
 
             QueryDictionary["page"] = "rss";
+            QueryDictionary["c"] = "1_0";
         }
 
         private NameValueCollection QueryDictionary { get; }
