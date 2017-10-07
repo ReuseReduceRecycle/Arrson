@@ -6,7 +6,7 @@ using CodeHollow.FeedReader;
 
 namespace Providers
 {
-    internal class Nyaa : IProvider
+    public class Nyaa : IProvider
     {
         public Nyaa()
         {
