@@ -6,7 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Providers", "Providers\Providers.csproj", "{72D9CCBA-BBD3-415C-BABF-CEFA720E16F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessIt", "GuessIt\GuessIt.csproj", "{E25B0980-6F2A-4D08-9DF2-78CF46FB5D62}"
-EndProjects
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients", "Clients\Clients.csproj", "{A7117FDA-E929-42BF-8731-48634E8B0E33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E25B0980-6F2A-4D08-9DF2-78CF46FB5D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E25B0980-6F2A-4D08-9DF2-78CF46FB5D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E25B0980-6F2A-4D08-9DF2-78CF46FB5D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7117FDA-E929-42BF-8731-48634E8B0E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7117FDA-E929-42BF-8731-48634E8B0E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7117FDA-E929-42BF-8731-48634E8B0E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7117FDA-E929-42BF-8731-48634E8B0E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
