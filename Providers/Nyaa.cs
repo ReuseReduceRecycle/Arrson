@@ -32,8 +32,6 @@ namespace Providers
         {
             Uri.Query = QueryDictionary.ToString();
 
-            Console.WriteLine(Uri.ToString());
-
             return await FeedReader.ReadAsync(Uri.ToString());
         }
     }
